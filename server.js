@@ -9,7 +9,7 @@ const app = express();
 const port = 3000;
 
 // configura CORS
-app.use(cors({origin: '*'}));
+app.use(cors());
 
 app.use(parser.json()); // support json encoded bodies
 app.use(parser.urlencoded({ extended: true })); // support encoded bodies

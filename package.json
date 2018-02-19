@@ -1,0 +1,22 @@
+{
+    "name": "smb-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Daniel Silva",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "cors": "^2.8.4",
+        "express": "^4.14.0",
+        "fast-xml-parser": "^2.8.1",
+        "mongoose": "^4.13.4",
+        "node-fetch": "^1.7.3",
+        "node-xml-lite": "0.0.7",
+        "xml2json": "^0.11.0"
+    }
+}

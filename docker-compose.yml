@@ -1,0 +1,10 @@
+version: "3"
+services:
+    backend:
+        container_name: smbb
+        build: .
+        volumes:
+            - ./:/var/www
+        ports:
+            - 3000:3000
+        command: /bin/sh -c "npm install && nodemon server.js"

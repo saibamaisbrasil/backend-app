@@ -6,7 +6,9 @@ const cors = require('cors');
 const parser = require('body-parser');
 
 const app = express();
-const port = 80;
+
+// process.env.PORT lets the port be set by Heroku
+const port = process.env.PORT || 3000;
 
 // configura CORS
 app.use(cors());

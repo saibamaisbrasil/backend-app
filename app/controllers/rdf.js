@@ -32,8 +32,9 @@ const set = async (req, res, next) => {
     res.status(200).send(result);
 };
 
+
 const make = async (rdf) => {
-    var wstream = fs.createWriteStream('rdf.ttl');
+    var wstream = fs.createWriteStream('public/rdf.ttl');
 
     wstream.write('@base <http://smb.com> .\n');
     wstream.write('@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n');

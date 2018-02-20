@@ -19,6 +19,9 @@ app.use(parser.urlencoded({ extended: true })); // support encoded bodies
 // registra as rotas com o prefixo api
 app.use('/api', routes());
 
+//registra a rota publica para servir arquivos estaticos
+app.use('/public', express.static('public'));
+
 // registra a rota /
 app.get('/', function (req, res) {
     res.send('Welcome to SMB API');

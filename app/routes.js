@@ -38,7 +38,7 @@ const routes = () => {
     router.get('/rdf', RdfCtrl.all);
     router.post('/rdf', RdfCtrl.set);
 
-    router.get('/twitter', TwitterCtrl.set);
+    router.post('/twitter', TwitterCtrl.set);
 
     return router;
 };

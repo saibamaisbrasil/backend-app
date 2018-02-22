@@ -7,13 +7,13 @@ const Twitter = require('twitter');
 const set = async (req, res, next) => {
     var deputado = req.body.deputado;
     var resultado = req.body.resultado;
-    var username = undefined;
+    var username = resultado;
 
     for (let social of deputado.redeSocial) {
         if (social.includes('twitter')) {
             let segments = social.split('/');
 
-            username = social.pop() || social.pop();  // handle potential trailing slash
+            username = segments.pop() || segments.pop();  // handle potential trailing slash
         }
     }
 
@@ -25,6 +25,7 @@ const set = async (req, res, next) => {
     });
 
     var nome = username ? '@' + username : deputado.nome;
+    nome += ' (' + deputado.siglaPartido + '-' + deputado.siglaUf + ')';
     var hashtag = resultado.porcentagem >= 90 ? '#representa' : resultado.porcentagem < 50 ? '#naorepresenta' : '';
     var msg = 'O(a) deputado(a) ' + nome + ' foi analisado(a) por mais um cidadão através do SMB e a representatividade foi de ' + resultado.porcentagem + '%. ' + hashtag;
 

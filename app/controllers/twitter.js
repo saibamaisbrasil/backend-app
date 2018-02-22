@@ -7,6 +7,15 @@ const Twitter = require('twitter');
 const set = async (req, res, next) => {
     var deputado = req.body.deputado;
     var resultado = req.body.resultado;
+    var username = undefined;
+
+    for (let social of deputado.redeSocial) {
+        if (social.includes('twitter')) {
+            let segments = social.split('/');
+
+            username = social.pop() || social.pop();  // handle potential trailing slash
+        }
+    }
 
     var cliente = new Twitter({
         consumer_key: 'j2N9QGbTWhs7GHUnxXHjl2P8Y',
@@ -15,12 +24,13 @@ const set = async (req, res, next) => {
         access_token_secret: 'lgQ6XkndsqPcjhPJGG3h2cjuEIwxGSFDmYTJ5UwOdmcxw'
     });
 
+    var nome = username ? '@' + username : deputado.nome;
     var hashtag = resultado.porcentagem >= 90 ? '#representa' : resultado.porcentagem < 50 ? '#naorepresenta' : '';
-    var msg = 'O deputado ' + deputado.nome + ' foi analisado por mais um cidadão através do SMB e a representatividade foi de ' + resultado.porcentagem + '%. ' + hashtag;
+    var msg = 'O(a) deputado(a) ' + nome + ' foi analisado(a) por mais um cidadão através do SMB e a representatividade foi de ' + resultado.porcentagem + '%. ' + hashtag;
 
     cliente.post('statuses/update', {status: msg},  function(error, tweet, response) {
         if(error) throw error;
-        console.log(tweet);
+        // console.log(tweet);
     });
 
     res.status(200).send(true);

@@ -57,7 +57,8 @@ const rebase = async (req, res, next) => {
                 urlFoto: data2.dados.ultimoStatus.urlFoto,
                 situacao: data2.dados.ultimoStatus.situacao,
                 telefone: data2.dados.ultimoStatus.gabinete.telefone,
-                email: data2.dados.ultimoStatus.gabinete.email
+                email: data2.dados.ultimoStatus.gabinete.email,
+                twitter: data2.dados.redeSocial
             };
 
             deputados.push(deputado);

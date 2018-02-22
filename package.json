@@ -17,6 +17,7 @@
         "mongoose": "^4.13.4",
         "node-fetch": "^1.7.3",
         "node-xml-lite": "0.0.7",
+        "twitter": "^1.7.1",
         "xml2json": "^0.11.0"
     }
 }

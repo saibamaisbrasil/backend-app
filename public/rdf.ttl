@@ -4,90 +4,6 @@
 @prefix Eleitor: <http://smb.com/Eleitor> .
 @prefix Proposicao: <http://smb.com/Proposicao> .
 
-<Proposicao/5a884296fcd9f5002e4c8928> rdf:type <Proposicao> .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#hash> "5a884296fcd9f5002e4c8928" .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#id> 2112586 .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#nome> "MPV 747/2016" .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#linkInteiroTeor> "http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra?codteor=1495360" .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#autorPartido> "" .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#autorUf> "" .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#autorId> "" .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#autorNome> "Poder Executivo" .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#votoDeputado> "Não" .
-<Proposicao/5a884296fcd9f5002e4c8928> <Proposicao#votoEleitor> "Sim" .
-<Politico/5a884296fcd9f5002e4c8928> rdf:type <Politico> .
-<Politico/5a884296fcd9f5002e4c8928> <Politico#hash> "5a884296fcd9f5002e4c8928" .
-<Politico/5a884296fcd9f5002e4c8928> <Politico#id> 178890 .
-<Politico/5a884296fcd9f5002e4c8928> <Politico#nome> "ADELMO CARNEIRO LEÃO" .
-<Politico/5a884296fcd9f5002e4c8928> <Politico#siglaUf> "MG" .
-<Politico/5a884296fcd9f5002e4c8928> <Politico#siglaPartido> "PT" .
-<Politico/5a884296fcd9f5002e4c8928> <Politico#escolaridade> "Doutorado" .
-<Politico/5a884296fcd9f5002e4c8928> <Politico#sexo> "M" .
-<Politico/5a884296fcd9f5002e4c8928> <Politico#idade> 69 .
-<Eleitor/5a884296fcd9f5002e4c8928> rdf:type <Eleitor> .
-<Eleitor/5a884296fcd9f5002e4c8928> <Eleitor#hash> "5a884296fcd9f5002e4c8928" .
-<Eleitor/5a884296fcd9f5002e4c8928> <Eleitor#estado> "BA" .
-<Eleitor/5a884296fcd9f5002e4c8928> <Eleitor#ocupacao> 0 .
-<Eleitor/5a884296fcd9f5002e4c8928> <Eleitor#escolaridade> "5" .
-<Eleitor/5a884296fcd9f5002e4c8928> <Eleitor#sexo> "M" .
-<Eleitor/5a884296fcd9f5002e4c8928> <Eleitor#idadeMin> undefined .
-<Eleitor/5a884296fcd9f5002e4c8928> <Eleitor#idadeMax> undefined .
-<Proposicao/5a8842f3fcd9f5002e4c8929> rdf:type <Proposicao> .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#hash> "5a8842f3fcd9f5002e4c8929" .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#id> 2112586 .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#nome> "MPV 747/2016" .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#linkInteiroTeor> "http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra?codteor=1495360" .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#autorPartido> "" .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#autorUf> "" .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#autorId> "" .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#autorNome> "Poder Executivo" .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#votoDeputado> "Sim" .
-<Proposicao/5a8842f3fcd9f5002e4c8929> <Proposicao#votoEleitor> "Não" .
-<Politico/5a8842f3fcd9f5002e4c8929> rdf:type <Politico> .
-<Politico/5a8842f3fcd9f5002e4c8929> <Politico#hash> "5a8842f3fcd9f5002e4c8929" .
-<Politico/5a8842f3fcd9f5002e4c8929> <Politico#id> 178968 .
-<Politico/5a8842f3fcd9f5002e4c8929> <Politico#nome> "ADELSON BARRETO" .
-<Politico/5a8842f3fcd9f5002e4c8929> <Politico#siglaUf> "SE" .
-<Politico/5a8842f3fcd9f5002e4c8929> <Politico#siglaPartido> "PR" .
-<Politico/5a8842f3fcd9f5002e4c8929> <Politico#escolaridade> "Superior" .
-<Politico/5a8842f3fcd9f5002e4c8929> <Politico#sexo> "M" .
-<Politico/5a8842f3fcd9f5002e4c8929> <Politico#idade> 54 .
-<Eleitor/5a8842f3fcd9f5002e4c8929> rdf:type <Eleitor> .
-<Eleitor/5a8842f3fcd9f5002e4c8929> <Eleitor#hash> "5a8842f3fcd9f5002e4c8929" .
-<Eleitor/5a8842f3fcd9f5002e4c8929> <Eleitor#estado> "BA" .
-<Eleitor/5a8842f3fcd9f5002e4c8929> <Eleitor#ocupacao> 0 .
-<Eleitor/5a8842f3fcd9f5002e4c8929> <Eleitor#escolaridade> "5" .
-<Eleitor/5a8842f3fcd9f5002e4c8929> <Eleitor#sexo> "M" .
-<Eleitor/5a8842f3fcd9f5002e4c8929> <Eleitor#idadeMin> undefined .
-<Eleitor/5a8842f3fcd9f5002e4c8929> <Eleitor#idadeMax> undefined .
-<Proposicao/5a8843c3fcd9f5002e4c892b> rdf:type <Proposicao> .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#hash> "5a8843c3fcd9f5002e4c892b" .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#id> 2118464 .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#nome> "MPV 752/2016" .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#linkInteiroTeor> "http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra?codteor=1511166" .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#autorPartido> "" .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#autorUf> "" .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#autorId> "" .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#autorNome> "Poder Executivo" .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#votoDeputado> "Sim" .
-<Proposicao/5a8843c3fcd9f5002e4c892b> <Proposicao#votoEleitor> "Sim" .
-<Politico/5a8843c3fcd9f5002e4c892b> rdf:type <Politico> .
-<Politico/5a8843c3fcd9f5002e4c892b> <Politico#hash> "5a8843c3fcd9f5002e4c892b" .
-<Politico/5a8843c3fcd9f5002e4c892b> <Politico#id> 178890 .
-<Politico/5a8843c3fcd9f5002e4c892b> <Politico#nome> "ADELMO CARNEIRO LEÃO" .
-<Politico/5a8843c3fcd9f5002e4c892b> <Politico#siglaUf> "MG" .
-<Politico/5a8843c3fcd9f5002e4c892b> <Politico#siglaPartido> "PT" .
-<Politico/5a8843c3fcd9f5002e4c892b> <Politico#escolaridade> "Doutorado" .
-<Politico/5a8843c3fcd9f5002e4c892b> <Politico#sexo> "M" .
-<Politico/5a8843c3fcd9f5002e4c892b> <Politico#idade> 69 .
-<Eleitor/5a8843c3fcd9f5002e4c892b> rdf:type <Eleitor> .
-<Eleitor/5a8843c3fcd9f5002e4c892b> <Eleitor#hash> "5a8843c3fcd9f5002e4c892b" .
-<Eleitor/5a8843c3fcd9f5002e4c892b> <Eleitor#estado> "AL" .
-<Eleitor/5a8843c3fcd9f5002e4c892b> <Eleitor#ocupacao> 0 .
-<Eleitor/5a8843c3fcd9f5002e4c892b> <Eleitor#escolaridade> "Superior" .
-<Eleitor/5a8843c3fcd9f5002e4c892b> <Eleitor#sexo> "M" .
-<Eleitor/5a8843c3fcd9f5002e4c892b> <Eleitor#idadeMin> 18 .
-<Eleitor/5a8843c3fcd9f5002e4c892b> <Eleitor#idadeMax> 24 .
 <Proposicao/5a7f96fb6f272a002944488b> rdf:type <Proposicao> .
 <Proposicao/5a7f96fb6f272a002944488b> <Proposicao#hash> "5a7f96fb6f272a002944488b" .
 <Proposicao/5a7f96fb6f272a002944488b> <Proposicao#id> 2121849 .
@@ -116,34 +32,6 @@
 <Eleitor/5a7f96fb6f272a002944488b> <Eleitor#sexo> "M" .
 <Eleitor/5a7f96fb6f272a002944488b> <Eleitor#idadeMin> 25 .
 <Eleitor/5a7f96fb6f272a002944488b> <Eleitor#idadeMax> 39 .
-<Proposicao/5a7f9a8c9fd1a200437774e7> rdf:type <Proposicao> .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#hash> "5a7f9a8c9fd1a200437774e7" .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#id> 2112586 .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#nome> "MPV 747/2016" .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#linkInteiroTeor> "http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra?codteor=1495360" .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#autorPartido> "" .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#autorUf> "" .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#autorId> "" .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#autorNome> "Poder Executivo" .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#votoDeputado> "Sim            " .
-<Proposicao/5a7f9a8c9fd1a200437774e7> <Proposicao#votoEleitor> "Não" .
-<Politico/5a7f9a8c9fd1a200437774e7> rdf:type <Politico> .
-<Politico/5a7f9a8c9fd1a200437774e7> <Politico#hash> "5a7f9a8c9fd1a200437774e7" .
-<Politico/5a7f9a8c9fd1a200437774e7> <Politico#id> 178957 .
-<Politico/5a7f9a8c9fd1a200437774e7> <Politico#nome> "ABEL MESQUITA JR." .
-<Politico/5a7f9a8c9fd1a200437774e7> <Politico#siglaUf> "RR" .
-<Politico/5a7f9a8c9fd1a200437774e7> <Politico#siglaPartido> "DEM" .
-<Politico/5a7f9a8c9fd1a200437774e7> <Politico#escolaridade> "Superior Incompleto" .
-<Politico/5a7f9a8c9fd1a200437774e7> <Politico#sexo> "M" .
-<Politico/5a7f9a8c9fd1a200437774e7> <Politico#idade> 56 .
-<Eleitor/5a7f9a8c9fd1a200437774e7> rdf:type <Eleitor> .
-<Eleitor/5a7f9a8c9fd1a200437774e7> <Eleitor#hash> "5a7f9a8c9fd1a200437774e7" .
-<Eleitor/5a7f9a8c9fd1a200437774e7> <Eleitor#estado> "BA" .
-<Eleitor/5a7f9a8c9fd1a200437774e7> <Eleitor#ocupacao> 0 .
-<Eleitor/5a7f9a8c9fd1a200437774e7> <Eleitor#escolaridade> "Superior" .
-<Eleitor/5a7f9a8c9fd1a200437774e7> <Eleitor#sexo> "M" .
-<Eleitor/5a7f9a8c9fd1a200437774e7> <Eleitor#idadeMin> 25 .
-<Eleitor/5a7f9a8c9fd1a200437774e7> <Eleitor#idadeMax> 39 .
 <Proposicao/5a84cb03a33d6b009fbde614> rdf:type <Proposicao> .
 <Proposicao/5a84cb03a33d6b009fbde614> <Proposicao#hash> "5a84cb03a33d6b009fbde614" .
 <Proposicao/5a84cb03a33d6b009fbde614> <Proposicao#id> 2116870 .
@@ -172,34 +60,6 @@
 <Eleitor/5a84cb03a33d6b009fbde614> <Eleitor#sexo> "F" .
 <Eleitor/5a84cb03a33d6b009fbde614> <Eleitor#idadeMin> 18 .
 <Eleitor/5a84cb03a33d6b009fbde614> <Eleitor#idadeMax> 24 .
-<Proposicao/5a8840a7fcd9f5002e4c8927> rdf:type <Proposicao> .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#hash> "5a8840a7fcd9f5002e4c8927" .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#id> 611966 .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#nome> "PEC 395/2014" .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#linkInteiroTeor> "http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra?codteor=1245688" .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#autorPartido> "PTB" .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#autorUf> "PR" .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#autorId> "73458" .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#autorNome> "Alex Canziani" .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#votoDeputado> "Sim" .
-<Proposicao/5a8840a7fcd9f5002e4c8927> <Proposicao#votoEleitor> "Sim" .
-<Politico/5a8840a7fcd9f5002e4c8927> rdf:type <Politico> .
-<Politico/5a8840a7fcd9f5002e4c8927> <Politico#hash> "5a8840a7fcd9f5002e4c8927" .
-<Politico/5a8840a7fcd9f5002e4c8927> <Politico#id> 160559 .
-<Politico/5a8840a7fcd9f5002e4c8927> <Politico#nome> "ALCEU MOREIRA" .
-<Politico/5a8840a7fcd9f5002e4c8927> <Politico#siglaUf> "RS" .
-<Politico/5a8840a7fcd9f5002e4c8927> <Politico#siglaPartido> "PMDB" .
-<Politico/5a8840a7fcd9f5002e4c8927> <Politico#escolaridade> "null" .
-<Politico/5a8840a7fcd9f5002e4c8927> <Politico#sexo> "M" .
-<Politico/5a8840a7fcd9f5002e4c8927> <Politico#idade> 64 .
-<Eleitor/5a8840a7fcd9f5002e4c8927> rdf:type <Eleitor> .
-<Eleitor/5a8840a7fcd9f5002e4c8927> <Eleitor#hash> "5a8840a7fcd9f5002e4c8927" .
-<Eleitor/5a8840a7fcd9f5002e4c8927> <Eleitor#estado> "BA" .
-<Eleitor/5a8840a7fcd9f5002e4c8927> <Eleitor#ocupacao> 0 .
-<Eleitor/5a8840a7fcd9f5002e4c8927> <Eleitor#escolaridade> "5" .
-<Eleitor/5a8840a7fcd9f5002e4c8927> <Eleitor#sexo> "M" .
-<Eleitor/5a8840a7fcd9f5002e4c8927> <Eleitor#idadeMin> undefined .
-<Eleitor/5a8840a7fcd9f5002e4c8927> <Eleitor#idadeMax> undefined .
 <Proposicao/5a8843c3fcd9f5002e4c892a> rdf:type <Proposicao> .
 <Proposicao/5a8843c3fcd9f5002e4c892a> <Proposicao#hash> "5a8843c3fcd9f5002e4c892a" .
 <Proposicao/5a8843c3fcd9f5002e4c892a> <Proposicao#id> 2118464 .
@@ -396,34 +256,6 @@
 <Eleitor/5a8845b1fcd9f5002e4c8931> <Eleitor#sexo> "M" .
 <Eleitor/5a8845b1fcd9f5002e4c8931> <Eleitor#idadeMin> 18 .
 <Eleitor/5a8845b1fcd9f5002e4c8931> <Eleitor#idadeMax> 24 .
-<Proposicao/5a89906e0444cd001d2ec09e> rdf:type <Proposicao> .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#hash> "5a89906e0444cd001d2ec09e" .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#id> 2112586 .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#nome> "MPV 747/2016" .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#linkInteiroTeor> "http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra?codteor=1495360" .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#autorPartido> "" .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#autorUf> "" .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#autorId> "" .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#autorNome> "Poder Executivo" .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#votoDeputado> "Não" .
-<Proposicao/5a89906e0444cd001d2ec09e> <Proposicao#votoEleitor> "Sim" .
-<Politico/5a89906e0444cd001d2ec09e> rdf:type <Politico> .
-<Politico/5a89906e0444cd001d2ec09e> <Politico#hash> "5a89906e0444cd001d2ec09e" .
-<Politico/5a89906e0444cd001d2ec09e> <Politico#id> 73433 .
-<Politico/5a89906e0444cd001d2ec09e> <Politico#nome> "ARLINDO CHINAGLIA" .
-<Politico/5a89906e0444cd001d2ec09e> <Politico#siglaUf> "SP" .
-<Politico/5a89906e0444cd001d2ec09e> <Politico#siglaPartido> "PT" .
-<Politico/5a89906e0444cd001d2ec09e> <Politico#escolaridade> "null" .
-<Politico/5a89906e0444cd001d2ec09e> <Politico#sexo> "M" .
-<Politico/5a89906e0444cd001d2ec09e> <Politico#idade> 69 .
-<Eleitor/5a89906e0444cd001d2ec09e> rdf:type <Eleitor> .
-<Eleitor/5a89906e0444cd001d2ec09e> <Eleitor#hash> "5a89906e0444cd001d2ec09e" .
-<Eleitor/5a89906e0444cd001d2ec09e> <Eleitor#estado> "BA" .
-<Eleitor/5a89906e0444cd001d2ec09e> <Eleitor#ocupacao> 0 .
-<Eleitor/5a89906e0444cd001d2ec09e> <Eleitor#escolaridade> "5" .
-<Eleitor/5a89906e0444cd001d2ec09e> <Eleitor#sexo> "M" .
-<Eleitor/5a89906e0444cd001d2ec09e> <Eleitor#idadeMin> undefined .
-<Eleitor/5a89906e0444cd001d2ec09e> <Eleitor#idadeMax> undefined .
 <Proposicao/5a8990b40444cd001d2ec0a1> rdf:type <Proposicao> .
 <Proposicao/5a8990b40444cd001d2ec0a1> <Proposicao#hash> "5a8990b40444cd001d2ec0a1" .
 <Proposicao/5a8990b40444cd001d2ec0a1> <Proposicao#id> 2116870 .
@@ -704,62 +536,6 @@
 <Eleitor/5a8993080444cd001d2ec0a8> <Eleitor#sexo> "M" .
 <Eleitor/5a8993080444cd001d2ec0a8> <Eleitor#idadeMin> 25 .
 <Eleitor/5a8993080444cd001d2ec0a8> <Eleitor#idadeMax> 39 .
-<Proposicao/5a8b19257d4131002c2dce2a> rdf:type <Proposicao> .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#hash> "5a8b19257d4131002c2dce2a" .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#id> 2112586 .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#nome> "MPV 747/2016" .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#linkInteiroTeor> "http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra?codteor=1495360" .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#autorPartido> "" .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#autorUf> "" .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#autorId> "" .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#autorNome> "Poder Executivo" .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#votoDeputado> "Sim" .
-<Proposicao/5a8b19257d4131002c2dce2a> <Proposicao#votoEleitor> "Não" .
-<Politico/5a8b19257d4131002c2dce2a> rdf:type <Politico> .
-<Politico/5a8b19257d4131002c2dce2a> <Politico#hash> "5a8b19257d4131002c2dce2a" .
-<Politico/5a8b19257d4131002c2dce2a> <Politico#id> 178957 .
-<Politico/5a8b19257d4131002c2dce2a> <Politico#nome> "ABEL MESQUITA JR." .
-<Politico/5a8b19257d4131002c2dce2a> <Politico#siglaUf> "RR" .
-<Politico/5a8b19257d4131002c2dce2a> <Politico#siglaPartido> "DEM" .
-<Politico/5a8b19257d4131002c2dce2a> <Politico#escolaridade> "Superior Incompleto" .
-<Politico/5a8b19257d4131002c2dce2a> <Politico#sexo> "M" .
-<Politico/5a8b19257d4131002c2dce2a> <Politico#idade> 56 .
-<Eleitor/5a8b19257d4131002c2dce2a> rdf:type <Eleitor> .
-<Eleitor/5a8b19257d4131002c2dce2a> <Eleitor#hash> "5a8b19257d4131002c2dce2a" .
-<Eleitor/5a8b19257d4131002c2dce2a> <Eleitor#estado> "BA" .
-<Eleitor/5a8b19257d4131002c2dce2a> <Eleitor#ocupacao> 0 .
-<Eleitor/5a8b19257d4131002c2dce2a> <Eleitor#escolaridade> "5" .
-<Eleitor/5a8b19257d4131002c2dce2a> <Eleitor#sexo> "M" .
-<Eleitor/5a8b19257d4131002c2dce2a> <Eleitor#idadeMin> undefined .
-<Eleitor/5a8b19257d4131002c2dce2a> <Eleitor#idadeMax> undefined .
-<Proposicao/5a8b19267d4131002c2dce2b> rdf:type <Proposicao> .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#hash> "5a8b19267d4131002c2dce2b" .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#id> 2112586 .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#nome> "MPV 747/2016" .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#linkInteiroTeor> "http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra?codteor=1495360" .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#autorPartido> "" .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#autorUf> "" .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#autorId> "" .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#autorNome> "Poder Executivo" .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#votoDeputado> "Sim" .
-<Proposicao/5a8b19267d4131002c2dce2b> <Proposicao#votoEleitor> "Não" .
-<Politico/5a8b19267d4131002c2dce2b> rdf:type <Politico> .
-<Politico/5a8b19267d4131002c2dce2b> <Politico#hash> "5a8b19267d4131002c2dce2b" .
-<Politico/5a8b19267d4131002c2dce2b> <Politico#id> 178957 .
-<Politico/5a8b19267d4131002c2dce2b> <Politico#nome> "ABEL MESQUITA JR." .
-<Politico/5a8b19267d4131002c2dce2b> <Politico#siglaUf> "RR" .
-<Politico/5a8b19267d4131002c2dce2b> <Politico#siglaPartido> "DEM" .
-<Politico/5a8b19267d4131002c2dce2b> <Politico#escolaridade> "Superior Incompleto" .
-<Politico/5a8b19267d4131002c2dce2b> <Politico#sexo> "M" .
-<Politico/5a8b19267d4131002c2dce2b> <Politico#idade> 56 .
-<Eleitor/5a8b19267d4131002c2dce2b> rdf:type <Eleitor> .
-<Eleitor/5a8b19267d4131002c2dce2b> <Eleitor#hash> "5a8b19267d4131002c2dce2b" .
-<Eleitor/5a8b19267d4131002c2dce2b> <Eleitor#estado> "BA" .
-<Eleitor/5a8b19267d4131002c2dce2b> <Eleitor#ocupacao> 0 .
-<Eleitor/5a8b19267d4131002c2dce2b> <Eleitor#escolaridade> "5" .
-<Eleitor/5a8b19267d4131002c2dce2b> <Eleitor#sexo> "M" .
-<Eleitor/5a8b19267d4131002c2dce2b> <Eleitor#idadeMin> undefined .
-<Eleitor/5a8b19267d4131002c2dce2b> <Eleitor#idadeMax> undefined .
 <Proposicao/5a8b1c1f7d4131002c2dce2c> rdf:type <Proposicao> .
 <Proposicao/5a8b1c1f7d4131002c2dce2c> <Proposicao#hash> "5a8b1c1f7d4131002c2dce2c" .
 <Proposicao/5a8b1c1f7d4131002c2dce2c> <Proposicao#id> 2112586 .

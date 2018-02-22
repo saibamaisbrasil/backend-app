@@ -9,6 +9,7 @@ const ProposicoesCtrl = require('./controllers/proposicoes');
 const TemasCtrl = require('./controllers/temas');
 const VotacoesCtrl = require('./controllers/votacoes');
 const RdfCtrl = require('./controllers/rdf');
+const TwitterCtrl = require('./controllers/twitter');
 
 const routes = () => {
     router.get('/deputados', DeputadosCtrl.all);
@@ -37,10 +38,7 @@ const routes = () => {
     router.get('/rdf', RdfCtrl.all);
     router.post('/rdf', RdfCtrl.set);
 
-    // router.post('/usuarios', usuario.add);
-    // router.get('/usuarios/:id', usuario.get);
-    // router.put('/usuarios/:id', usuario.edit);
-    // router.delete('/usuarios/:id', usuario.del);
+    router.get('/twitter', TwitterCtrl.set);
 
     return router;
 };

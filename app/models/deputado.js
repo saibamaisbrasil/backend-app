@@ -16,7 +16,7 @@ const deputado = {
     'situacao': String,
     'telefone': String,
     'email': String,
-    'redeSocial': String
+    'redeSocial': []
 };
 
 const schema = new db.mongoose.Schema(deputado, { versionKey: false });

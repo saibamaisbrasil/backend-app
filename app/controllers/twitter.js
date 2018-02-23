@@ -7,7 +7,7 @@ const Twitter = require('twitter');
 const set = async (req, res, next) => {
     var deputado = req.body.deputado;
     var resultado = req.body.resultado;
-    var username = resultado;
+    var username = undefined;
 
     for (let social of deputado.redeSocial) {
         if (social.includes('twitter')) {
@@ -30,11 +30,11 @@ const set = async (req, res, next) => {
     var msg = 'O(a) deputado(a) ' + nome + ' foi analisado(a) por mais um cidadão através do SMB e a representatividade foi de ' + resultado.porcentagem + '%. ' + hashtag;
 
     cliente.post('statuses/update', {status: msg},  function(error, tweet, response) {
-        if(error) throw error;
+        if(error) res.status(555).send(error);
         // console.log(tweet);
-    });
 
-    res.status(200).send(true);
+        res.status(200).send(tweet);
+    });
 };
 
 module.exports = { set };

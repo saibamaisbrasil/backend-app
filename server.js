@@ -21,9 +21,10 @@ app.use('/api', routes());
 
 //registra a rota publica para servir arquivos estaticos
 app.use('/public', express.static('public'));
+
+// registra a rota / para o site do projeto
 app.use('/', express.static('site'));
 
-// registra a rota /
 // app.get('/', function (req, res) {
 //     res.send('Welcome to SMB API');
 // });

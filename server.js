@@ -23,10 +23,8 @@ app.use('/api', routes());
 app.use('/public', express.static('public'));
 
 // registra a rota / para o site do projeto
-app.use('/', express.static('site'));
-
-// app.get('/', function (req, res) {
-//     res.send('Welcome to SMB API');
-// });
+app.get('/', function (req, res) {
+    res.send('Welcome to SMB API');
+});
 
 app.listen(port);

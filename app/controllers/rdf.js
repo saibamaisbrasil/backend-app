@@ -33,7 +33,7 @@ const set = async (req, res, next) => {
 };
 
 
-const make = async (rdf) => {
+const make = (rdf) => {
     var wstream = fs.createWriteStream('public/rdf.ttl');
 
     wstream.write('@base <http://smb.com> .\n');

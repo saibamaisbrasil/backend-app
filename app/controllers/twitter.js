@@ -1,7 +1,6 @@
 'use strict';
 
 const fs = require('fs')
-
 const Twitter = require('twitter');
 
 const set = async (req, res, next) => {
@@ -13,7 +12,7 @@ const set = async (req, res, next) => {
         if (social.includes('twitter')) {
             let segments = social.split('/');
 
-            username = segments.pop() || segments.pop();  // handle potential trailing slash
+            username = segments.pop() || segments.pop();
         }
     }
 
